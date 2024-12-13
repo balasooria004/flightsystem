@@ -1,0 +1,22 @@
+# Python cache files
+*.pyc
+__pycache__/
+
+# Database files
+db.sqlite3
+
+# Environment variables
+.env
+
+# Media files
+media/
+
+# Static files
+staticfiles/
+
+# MacOS specific files
+.DS_Store
+
+# IDE specific files
+.vscode/
+.idea/

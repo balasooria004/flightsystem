@@ -1,0 +1,7 @@
+<form method="POST">
+	{% csrf_token %}
+	<p>Are you sure, you want to remove flight with id {{id}}</p>
+	<input type="submit" value="Delete Flight">
+	
+	<p><a href="/">Cancel</a></p>
+</form>
